@@ -9,9 +9,29 @@ Answer the following questions based on your understanding of the installation a
 
 1. Installation of VS Code:
    - Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.
+   **Answer**  
+   Prerequisites  
+   - Firstly ensure that your system is running on a Windows 11 by clicking the windows icon on the keyboard and search aboutnyour pc . it is going to show which operating system you running on.
+   - Secondly You need a stable internet connection to download the installer.
+   - Open your web browser and navigate to the Visual Studio Code website https://code.visualstudio.com/download.
+   - Select and download Visual Studio Code of your operating system which is windows 11. 
+   - Once the download is complete, open the downloaded file (usually named VSCodeSetup-x.x.x.exe where x.x.x is the   version number).
+   - If a User Account Control (UAC) prompt appears, click "Yes" to allow the installer to make changes to your device.
+   - Accept the License Agreement:
+   - The Visual Studio Code Setup wizard will open. Read the license agreement and, if you agree, select "I accept the agreement" and click "Next".
+   - Choose the destination folder where you want to install VS Code. The default location is usually fine. Click "Next".
+   - You can select additional tasks that you want the installer to perform, such as:
+   - Creating a desktop icon, Adding "Open with Code" action to the context menu for Windows Explorer, Registering Code as an editor for supported file types,and Adding to the PATH environment variable.
+   - Select the options you prefer and click "Next".
+   - Click "Install" to begin the installation. The setup will copy the necessary files to your computer.
+   - Once the installation is complete, you can choose to launch VS Code immediately by checking the "Launch Visual Studio Code" option and clicking "Finish".
+
 
 2. First-time Setup:
    - After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
+   **Answers**  
+   After installing Visual Studio Code (VS Code), there are several initial configurations and settings you can adjust to create an optimal coding environment. Here are some important settings and recommended extensions to consider:
+   - If you didn't select to launch VS Code during the installation, you can open it by searching for "Visual Studio Code" in the Start menu and clicking on the application.
 
 3. User Interface Overview:
    - Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.
