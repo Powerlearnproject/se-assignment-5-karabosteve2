@@ -185,19 +185,18 @@ Open the Debug View: Click the Debug icon in the Activity Bar on the side or pre
 10. Using Source Control:
     - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.  
     **Answers**  
-    1. First Install Git and VS Code
-Install Git: Download and install Git from git-scm.com.
-
-   2. Set Up Git in VS Code
-Open VS Code.
+    First Install Git and VS Code
+- Install Git: Download and install Git from git-scm.com  
+- Set Up Git in VS Code
+- Open VS Code.
 Open the Command Palette by pressing Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac).
-Type Git: Clone and select it.
+Type Git: Clone and select it. ![alt text](<Command Palette.png>)
 Enter the repository URL (if you are cloning an existing repository) or skip this step if you are initializing a new repository.
-   3. Initialize a Git Repository
+   - Initialize a Git Repository
 Open a folder in VS Code that you want to turn into a Git repository.
-Click on the Source Control icon on the left sidebar (or press Ctrl+Shift+G).
+Click on the Source Control icon on the left sidebar (or press Ctrl+Shift+G). ![alt text](Source-1.png)
 Click on Initialize Repository button.
-   4. Make Changes and Commit
+   - Make Changes and Commit
 Edit Files: Make changes to your files using the VS Code editor.
 Stage Changes:
 Go to the Source Control view.
@@ -205,12 +204,12 @@ You will see a list of changed files. Click the + icon next to each file to stag
 Commit Changes:
 Type a commit message in the message box.
 Click the checkmark icon (✔️) to commit the staged changes.
-   5. Connect to GitHub
+   - Connect to GitHub
 Open Command Palette by pressing Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac).
 Type Git: Add Remote and select it.
 Enter the name origin (or any other name you prefer).
 Enter the GitHub repository URL (e.g., https://github.com/yourusername/your-repo.git).
-   6. Push Changes to GitHub
+   - Push Changes to GitHub
 Open Terminal in VS Code by selecting View > Terminal or pressing `Ctrl+``.
 Run the following commands:
 bash
