@@ -7,15 +7,15 @@ Answer the following questions based on your understanding of the installation a
 
  Questions:
 
-1. Installation of VS Code:
-   - Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.
+Installation of VS Code:
+1.  Describe the steps to download and install Visual Studio Code on Windows 11 operating system. Include any prerequisites that might be needed.  
    **Answer**  
    Prerequisites  
-   - Firstly ensure that your system is running on a Windows 11 by clicking the windows icon on the keyboard and search aboutnyour pc . it is going to show which operating system you running on.
+   - Firstly ensure that your system is running on a Windows 11 by clicking the windows icon on the keyboard and search aboutnyour pc . it is going to show which operating system you running on. ![alt text](image.png)
    - Secondly You need a stable internet connection to download the installer.
    - Open your web browser and navigate to the Visual Studio Code website https://code.visualstudio.com/download.
-   - Select and download Visual Studio Code of your operating system which is windows 11. 
-   - Once the download is complete, open the downloaded file (usually named VSCodeSetup-x.x.x.exe where x.x.x is the   version number).
+   - Select and download Visual Studio Code of your operating system which is windows 11.![alt text](2.png) 
+   - Once the download is complete, open the downloaded file (usually named VSCodeSetup-x.x.x.exe where x.x.x is the   version number). ![alt text](3.png)
    - If a User Account Control (UAC) prompt appears, click "Yes" to allow the installer to make changes to your device.
    - Accept the License Agreement:
    - The Visual Studio Code Setup wizard will open. Read the license agreement and, if you agree, select "I accept the agreement" and click "Next".
@@ -28,10 +28,10 @@ Answer the following questions based on your understanding of the installation a
 
 
 2. First-time Setup:
-   - After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
+After installing VS Code, what initial configurations and settings should be adjusted for an optimal coding environment? Mention any important settings or extensions.
    **Answers**  
    After installing Visual Studio Code (VS Code), there are several initial configurations and settings you can adjust to create an optimal coding environment. Here are some important settings and recommended extensions to consider:
-   - If you didn't select to launch VS Code during the installation, you can open it by searching for "Visual Studio Code" in the Start menu and clicking on the application.
+   - If you didn't select to launch VS Code during the installation, you can open it by searching for "Visual Studio Code" ![alt text](<Search Vs.png>) in the Start menu and clicking on the application.
 __Initial Configurations and Settings__
    - Theme and Appearance:
    Color Theme: Choose a color theme that suits your preference. Go to File > Preferences > Color Theme or press Ctrl+K Ctrl+T to browse and select a theme.
@@ -39,12 +39,13 @@ __Initial Configurations and Settings__
    Font and Editor Settings:
 
    - Font Size:  
-   Adjust the font size for better readability. Go to File > Preferences > Settings and search for "font size".
-   Font Family: Choose a font that you find comfortable for coding. In the settings, search for "font family" and specify your preferred font.
+   Adjust the font size for better readability. Go to File > Preferences > Settings and search for "font size". 
+   Font Family: Choose a font that you find comfortable for coding. In the settings, search for "font family" and specify your preferred font.  
+   ![alt text](<Font vs.png>)
    - Line Numbers: Enable or customize line numbers by searching for "line numbers" in settings.
    Word Wrap: Enable word wrap for long lines by searching for "word wrap" in settings.
    - Auto Save:
-   Enable auto save to automatically save your work. Go to File > Preferences > Settings, search for "auto save", and choose your preferred option (e.g., "afterDelay" or "onWindowChange").
+   Enable auto save to automatically save your work. Go to File > Preferences > Settings, search for "auto save", and choose your preferred option (e.g., "afterDelay" or "onWindowChange"). ![alt text](<auto save.png>)
 
 3. User Interface Overview:
    - Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar, Side Bar, Editor Group, and Status Bar.  
@@ -58,7 +59,8 @@ Components:
 - Run and Debug: Provides tools for running and debugging your applications.
 - Extensions: Manages VS Code extensions, enabling you to install, enable/disable, and manage extensions.  
 
-2. **Side Bar**
+2. **Side Bar**  
+![alt text](<side bar.png>)
 Purpose: The Side Bar is adjacent to the Activity Bar and contains different views and panels that can be toggled based on your current task or workflow.
 Components:
 - Explorer: Shows the file and folder structure of your project, allowing you to navigate, open, and manipulate files.
@@ -85,8 +87,8 @@ Components:
 - Extensions: Shows the status of installed extensions and provides quick access to extension settings.  
 
 4. Command Palette:
-   - What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.  
-   **Answers**  
+What is the Command Palette in VS Code, and how can it be accessed? Provide examples of common tasks that can be performed using the Command Palette.  
+**Answers**  
    Accessing the Command Palette
 To access the Command Palette in VS Code: Use this Keyboard Shortcut: Press Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac).
 Menu: Click on View in the top menu bar, then select Command Palette....
@@ -106,6 +108,7 @@ Git: Push: Type "Git: Push" to push committed changes to a remote repository.
 **Extensions:**
 Extensions: Install Extensions: Type "Extensions: Install Extensions" to search and install new extensions from the VS Code Marketplace.
 Extensions: Disable All Installed Extensions: Type "Extensions: Disable All Installed Extensions" to disable all installed extensions.  
+![alt text](<11 extension.png>) 
 
 **Debugging:**
 Debug: Start Debugging: Type "Debug: Start Debugging" to begin debugging your application.
@@ -166,9 +169,9 @@ Press Cmd+ ` (backtick/grave accent) on macOS.
 **Change Keybindings:** Use Ctrl+K Ctrl+S to open Keyboard Shortcuts, search for commands, and set new key combinations.
 
 9. Debugging in VS Code:
-   - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?  
-   **Answers**  
-   **Here's a step-by-step guide to set up and start debugging a simple program in VS Code:**
+Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?  
+**Answers**  
+**Here's a step-by-step guide to set up and start debugging a simple program in VS Code:**
 
 Open Your Project:
 Open the folder containing your project files in VS Code (File > Open Folder...).
@@ -180,7 +183,40 @@ Open the Debug View: Click the Debug icon in the Activity Bar on the side or pre
 
 
 10. Using Source Control:
-    - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+    - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.  
+    **Answers**  
+    1. First Install Git and VS Code
+Install Git: Download and install Git from git-scm.com.
+
+   2. Set Up Git in VS Code
+Open VS Code.
+Open the Command Palette by pressing Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac).
+Type Git: Clone and select it.
+Enter the repository URL (if you are cloning an existing repository) or skip this step if you are initializing a new repository.
+   3. Initialize a Git Repository
+Open a folder in VS Code that you want to turn into a Git repository.
+Click on the Source Control icon on the left sidebar (or press Ctrl+Shift+G).
+Click on Initialize Repository button.
+   4. Make Changes and Commit
+Edit Files: Make changes to your files using the VS Code editor.
+Stage Changes:
+Go to the Source Control view.
+You will see a list of changed files. Click the + icon next to each file to stage it, or click + next to Changes to stage all changes.
+Commit Changes:
+Type a commit message in the message box.
+Click the checkmark icon (✔️) to commit the staged changes.
+   5. Connect to GitHub
+Open Command Palette by pressing Ctrl+Shift+P (Windows/Linux) or Cmd+Shift+P (Mac).
+Type Git: Add Remote and select it.
+Enter the name origin (or any other name you prefer).
+Enter the GitHub repository URL (e.g., https://github.com/yourusername/your-repo.git).
+   6. Push Changes to GitHub
+Open Terminal in VS Code by selecting View > Terminal or pressing `Ctrl+``.
+Run the following commands:
+bash
+Copy code
+git push -u origin master
+This will push your changes to the master branch on GitHub.
 
  Submission Guidelines:
 - Your answers should be well-structured, concise, and to the point.
